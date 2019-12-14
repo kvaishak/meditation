@@ -1,0 +1,62 @@
+.video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 1;
+}
+
+.play-pause {
+    position: absolute;
+    height: 25%;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* pointer-events: none; */
+}
+
+.play-container {
+    padding-bottom: 25%;
+}
+
+.song-select button {
+    border: none;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    padding: 25px;
+    position: absolute;
+    top: 70%;
+    transform: translate(-50%, -50%);
+}
+
+.song-select button img {
+    height: 100%;
+}
+
+.rain {
+    left: 30%;
+    border: none;
+    background: #0075FF;
+}
+
+.beach {
+    left: 50%;
+    border: none;
+    background: #FFA800;
+}
+
+.forest {
+    left: 70%;
+    border: none;
+    background: #04B600;
+}
+
+.song-select button:hover {
+    box-shadow: 2px 2px 20px #000000;
+}
+
+.time-display {
+    color: white;
+}
